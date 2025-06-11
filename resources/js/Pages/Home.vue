@@ -166,12 +166,13 @@
                         Ludgero Luiz Mendes Junior
                     </h1>
                     <p class="text-base text-gray-700 text-center mb-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Etiam tristique sapien eu mi faucibus, at pulvinar magna
-                        lacinia. Proin ac velit vel lorem facilisis euismod ac
-                        nec erat. Mauris fermentum, justo a dictum dictum, velit
-                        nisi sollicitudin velit, nec commodo velit ipsum nec
-                        eros.
+                        Apaixonado por tecnologia, entusiasta do desenvolvimento
+                        e gamer nas horas vagas. Sou fã de MMORPGs e atualmente
+                        dedico meu tempo ao Poketibia, atuando como vice-líder
+                        da guild ARKHAM. Quando sobra um tempo, também faço
+                        lives, compartilhando momentos da jornada com a
+                        comunidade. Sempre em busca de aprender, criar e me
+                        divertir.
                     </p>
                     <!-- Ícones sociais pessoais -->
                     <div
@@ -196,15 +197,32 @@
                                 <circle cx="18.5" cy="5.5" r="1" />
                             </svg>
                         </a>
+                        <!-- Twitch -->
+                        <a
+                            href="https://www.twitch.tv/LudgeroJunior"
+                            target="_blank"
+                            aria-label="Twitch"
+                            class="text-purple-700 hover:text-purple-900 transition-colors"
+                        >
+                            <svg
+                                class="w-7 h-7"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    d="M4.285 0L1.71 4.571v16.002h5.142V24h3.428l3.428-3.427h4.285L22.29 17.14V0H4.285zm15.418 15.429l-2.285 2.285h-4.571l-3.429 3.428v-3.428H3.999V1.714H19.703v13.715zm-8.001-3.429h1.714V7.428h-1.714v4.572zm4 0h1.715V7.428h-1.715v4.572z"
+                                />
+                            </svg>
+                        </a>
                     </div>
                 </section>
 
                 <!-- Área Guild ARKHAM -->
-                <section class="w-full max-w-2xl relative mt-4">
+                <section class="w-full max-w-2xl relative mt-1">
                     <div class="rounded-3xl overflow-hidden shadow-lg relative">
-                        <a
-                            href="/arkham"
-                            class="block rounded-3xl overflow-hidden shadow-lg relative mt-4 w-full max-w-2xl cursor-pointer group transition-transform duration-200 hover:scale-105"
+                        <router-link
+                            to="/arkham"
+                            class="block rounded-3xl overflow-hidden shadow-lg relative mt-1 w-full max-w-2xl cursor-pointer group transition-transform duration-200 hover:scale-105"
                             style="text-decoration: none"
                         >
                             <!-- Imagem com filtro escurecido -->
@@ -227,7 +245,7 @@
                                 >
                                     Orgulho de fazer parte da Guild ARKHAM, um
                                     grupo apaixonado por jogos, amizade e
-                                    conquistas épicas!
+                                    conquistas!
                                 </p>
                                 <!-- <span
                                     class="mt-4 px-5 py-2 rounded-full bg-blue-700/90 text-white font-bold shadow-md group-hover:bg-blue-900 transition-colors"
@@ -235,7 +253,7 @@
                                     Acessar página da Guild
                                 </span> -->
                             </div>
-                        </a>
+                        </router-link>
                     </div>
                 </section>
             </div>
