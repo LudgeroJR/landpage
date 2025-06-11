@@ -147,10 +147,13 @@
                     >
                 </button>
             </transition>
+
             <div
                 class="min-h-screen w-full flex flex-col items-center justify-center bg-gradient-to-br from-gray-900 via-slate-800 to-gray-700 p-6"
             >
+                <br />
                 <!-- Avatar e descrição -->
+
                 <section
                     class="w-full max-w-xl flex flex-col items-center bg-white/90 rounded-3xl shadow-2xl px-8 py-10 mb-10"
                 >
@@ -199,29 +202,40 @@
                 <!-- Área Guild ARKHAM -->
                 <section class="w-full max-w-2xl relative mt-4">
                     <div class="rounded-3xl overflow-hidden shadow-lg relative">
-                        <!-- Imagem com filtro escurecido -->
-                        <img
-                            :src="'/images/guildarkham.jpeg'"
-                            alt="Guild ARKHAM"
-                            class="w-full h-64 object-cover filter brightness-75"
-                        />
-                        <!-- Conteúdo sobreposto -->
-                        <div
-                            class="absolute inset-0 flex flex-col items-center justify-center"
+                        <a
+                            href="/arkham"
+                            class="block rounded-3xl overflow-hidden shadow-lg relative mt-4 w-full max-w-2xl cursor-pointer group transition-transform duration-200 hover:scale-105"
+                            style="text-decoration: none"
                         >
-                            <h2
-                                class="text-3xl font-extrabold text-white drop-shadow-lg mb-2"
+                            <!-- Imagem com filtro escurecido -->
+                            <img
+                                :src="'/images/guildarkham.jpeg'"
+                                alt="Guild ARKHAM"
+                                class="w-full h-64 object-cover filter brightness-75"
+                            />
+                            <!-- Conteúdo sobreposto -->
+                            <div
+                                class="absolute inset-0 flex flex-col items-center justify-center"
                             >
-                                Guild ARKHAM
-                            </h2>
-                            <p
-                                class="text-lg text-gray-200 drop-shadow text-center max-w-md"
-                            >
-                                Orgulho de fazer parte da Guild ARKHAM, um grupo
-                                apaixonado por jogos, amizade e conquistas
-                                épicas!
-                            </p>
-                        </div>
+                                <h2
+                                    class="text-3xl font-extrabold text-white drop-shadow-lg mb-2"
+                                >
+                                    Guild ARKHAM
+                                </h2>
+                                <p
+                                    class="text-lg text-gray-200 drop-shadow text-center max-w-md"
+                                >
+                                    Orgulho de fazer parte da Guild ARKHAM, um
+                                    grupo apaixonado por jogos, amizade e
+                                    conquistas épicas!
+                                </p>
+                                <!-- <span
+                                    class="mt-4 px-5 py-2 rounded-full bg-blue-700/90 text-white font-bold shadow-md group-hover:bg-blue-900 transition-colors"
+                                >
+                                    Acessar página da Guild
+                                </span> -->
+                            </div>
+                        </a>
                     </div>
                 </section>
             </div>
